@@ -1,0 +1,16 @@
+{% load staticfiles %}
+
+{% block content %}
+    <h1>Hello world</h1>
+    {% for i in lista %}
+    <p>{{i}}</p>
+    {% endfor %}
+
+    {% if item == 'Flavia' %}
+    <p>Não tem chiclite hoje</p>
+    {% else %}
+    <p>Nome no SPC</p>
+    {% endif %}
+    <img src="{% static 'image/tom.jpg' %}" alt="tom" ' width="500px" height="auto"'>
+{% endblock %}
+

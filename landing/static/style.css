@@ -1,0 +1,15 @@
+body{
+    background:rgb(117, 117, 122);
+    display: inline;
+}
+h1{
+    color: rgb(15, 15, 12);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
